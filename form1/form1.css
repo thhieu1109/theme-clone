@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* img {
+    width: 100%;
+    height: 100%;
+
+} */
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://img.freepik.com/free-photo/particle-lines-futuristic-gradient-background_53876-104053.jpg?t=st=1744109890~exp=1744113490~hmac=565e717278ec997c8fcda25d0f9e9e95a13bf48641c2732a4365b737cdc9ad0a&w=1380);
+    background-size: 100% 100%;
+}
+
+form{
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    img{
+        height: 100%;
+        width: 100%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+    
+    .form-container{
+        padding: 30px;
+        h2{
+            text-align: center;
+            margin-bottom: 15px;
+        }
+       .form-group{
+            margin-bottom: 10px;
+            position: relative;
+            input{
+                padding: 10px;
+                border-radius: 45px;
+                width: 100%;
+            }
+            i{
+                position: absolute;
+                right:10px;
+                top: 50%;
+                transform: translateY(-50%);
+            }   
+        }
+            .login{
+                padding: 10px;
+                width: 100%;
+                border-radius: 45px;
+                background-color: blue;
+                color: white;
+            }
+        h5{
+            margin-top: 15px;
+            text-align: center;
+        }
+
+        .lot-button{
+            display: flex;
+            justify-content: space-around;
+            margin: 10px 0;
+            button{
+                padding: 5px;
+            }
+        }
+
+    }
+    
+       
+      
+    
+}

@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230318/pngtree-gradient-green-blue-waves-on-fluid-background-vector-image_1950459.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    font-family: Arial, sans-serif;
+    .container {
+      width: 80%;
+      height: 90%;
+      background: white;
+      display: flex;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+  
+      .left-panel {
+        width: 40%;
+        background-color: #34c9c2;
+        color: white;
+        padding:30px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        position: relative;
+        .logo {
+          img {
+            width: 50px;
+            margin-bottom: 20px;
+          }
+        }
+  
+        h2 {
+          font-size: 40px;
+          font-weight: bold;
+          margin-bottom: 30px;
+          line-height: 1.4;
+        }
+  
+        .vr-image {
+          position: absolute;
+          width: 300px;
+          bottom: 30px;
+          right: 0;
+          transform: translateX(30%);
+        }
+      }
+  
+      .form-container {
+        padding: 30px; 
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
+         
+        .language {
+          font-size: 14px;
+          color: #555;
+          text-align: end;
+        }
+  
+        h2 {
+          font-size: 28px;
+          font-weight: bold;
+          margin-bottom: 20px;
+        }
+  
+        .form-group {
+          margin-bottom: 15px;
+  
+          input {
+            width: 100%;
+            padding: 8px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+          }
+        }
+  
+        .checkbox-container {
+          display: flex;
+          align-items: flex-start;
+          margin-bottom: 20px;
+          font-size: 14px;
+          color: #555;
+  
+          input {
+            margin-right: 10px;
+            margin-top: 4px;
+          }
+        }
+  
+        button[type="submit"] {
+          padding: 12px;
+          background-color: #0eb5aa;
+          color: white;
+          border: none;
+          border-radius: 8px;
+          font-size: 16px;
+          width: 100%;
+          cursor: pointer;
+        }
+  
+        .or {
+          text-align: center;
+          margin: 10px 0;
+          color: #999;
+        }
+  
+        .social-buttons {
+          display: flex;
+          gap: 10px;
+          justify-content: space-between;
+          margin-bottom: 20px;
+  
+          button {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: white;
+            cursor: pointer;
+          }
+        }
+  
+        .login-link {
+          text-align: center;
+          font-size: 14px;
+          color: #555;
+  
+          a {
+            color: #34c9c2;
+            text-decoration: none;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  }
