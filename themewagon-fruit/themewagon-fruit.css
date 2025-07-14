@@ -72,15 +72,14 @@ main {
 
 
     .utilities-container {
-        margin-top: 100px;
+        
 
         .card {
             background-color: #f8fafc;
             /* light grey */
             border-radius: 10px;
             padding: 20px;
-            width: 300px;
-            height: 300px;
+            
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 
             .card-icon {
@@ -259,25 +258,7 @@ main {
         }
 
     }
-
-    .bestseller-container1 {
-        margin-top: 100px;
-
-        .card {
-            max-width: 400px;
-            background-color: #f5f9fc;
-        }
-    }
-
-    .bestseller-container2 {
-        margin-bottom: 100px;
-
-        .card {
-            max-width: 400px;
-            background-color: #f5f9fc;
-        }
-    }
-
+    
 
     .testimonial-container {
         .custom-arrow-btn2 {
