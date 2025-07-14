@@ -14,11 +14,11 @@ Repository này chứa các **dự án clone các landing page nổi bật** t�
 
 -------------------------------------------------------------------
 🚀 Cách sử dụng
-Clone repository về máy:
-git clone https://github.com/your-username/landingpageclone.git
-Chạy dự án:
--Mở index.html của từng project bằng trình duyệt.
--Hoặc chạy bằng Live Server trên VSCode để tiện phát triển.
++ Clone repository về máy:
+  git clone https://github.com/your-username/landingpageclone.git
++ Chạy dự án:
+- Mở index.html của từng project bằng trình duyệt.
+- Hoặc chạy bằng Live Server trên VSCode để tiện phát triển.
 -------------------------------------------------------------------
 💼 Ứng dụng
 - Học HTML/CSS/JS căn bản và nâng cao.
@@ -27,13 +27,13 @@ Chạy dự án:
 - Làm nền cho dự án cá nhân, startup, hoặc landing page sản phẩm.
 -------------------------------------------------------------------
 📌 Ghi chú
-Không sử dụng vào mục đích thương mại nếu chưa có sự cho phép từ bản gốc.
-Đây là các bản clone phi lợi nhuận phục vụ học tập và trau dồi kỹ năng.
+ Không sử dụng vào mục đích thương mại nếu chưa có sự cho phép từ bản gốc.
+ Đây là các bản clone phi lợi nhuận phục vụ học tập và trau dồi kỹ năng.
 
 📬 Đóng góp
-Bạn có thể:
+ Bạn có thể:
 
--Thêm landing page mới.
--Cải thiện UI/UX.
--Tối ưu code HTML/CSS/JS.
--Pull request luôn được chào đón! 🙌
+- Thêm landing page mới.
+- Cải thiện UI/UX.
+- Tối ưu code HTML/CSS/JS.
+- Pull request luôn được chào đón! 🙌
